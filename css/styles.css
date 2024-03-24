@@ -1,6 +1,7 @@
 body {
 font-family: "Roboto", sans-serif;
-color: #2e2f42;
+color: #434455;
+background-color: #fff;
 }
 
 ul{
@@ -14,23 +15,29 @@ a {
 .section-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
 }
 /* ------------------------HEADER--------------------- */
 
 .logo {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
-.accent {
-        color: #4d5ae5;
+.accent-header {
+        color: #2e2f42;
+}
+
+.accent-footer {
+    color: #f4f4fd;
 }
 
 .header-nav {
@@ -41,12 +48,15 @@ a {
         color: #2e2f42;
 }
 
+.header-address {
+    font-style: normal;
+}
+
 .header-contacts {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        font-style: normal;
 }
 
 .header-contacts:hover, .header-contacts:focus, .header-nav:hover, .header-nav:focus {
@@ -62,13 +72,11 @@ text-decoration: underline;
 
 .service-section {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
 
 .main-title {
         font-size: 56px;
-        line-height: 1.071;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -85,7 +93,7 @@ text-decoration: underline;
         cursor: pointer;
 }
 
-.btn-order:hover {
+.btn-order:hover, .btn-order:focus {
     background-color: #404bbf;
 }
 
@@ -112,6 +120,9 @@ text-decoration: underline;
 
 /* ---------------------OUR TEAM--------------------------- */
 
+.team-section {
+    background-color: #F4F4FD;
+}
 .team-name {
         font-weight: 500;
         font-size: 20px;
@@ -133,6 +144,9 @@ text-decoration: underline;
 
 /* -----------------------PORTFOLIO------------------------- */
 
+.portfolio-section {
+    background-color: #fff;
+}
 .prtfolio-name {
         font-weight: 500;
         font-size: 20px;
@@ -151,8 +165,6 @@ text-decoration: underline;
 /* ------------------------------------------------ */
 .footer {
         background-color: #2e2f42;
-        width: 1440px;
-        height: 312px;
 }
 .footer-text {
         font-size: 16px;
